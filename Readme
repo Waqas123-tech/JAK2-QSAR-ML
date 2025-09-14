@@ -1,0 +1,29 @@
+# JAK2-QSAR-ML
+
+This repository contains the code and environment files for the paper:
+
+**"Reproducible Machine Learning Pipeline for QSAR Modeling of JAK2 Inhibitors"**
+
+---
+
+## 📂 Repository Structure
+- `notebooks/`
+  - **JAK2_QSAR_pipeline.ipynb** → complete workflow from data cleaning → filtering → feature engineering → modeling.
+- `data/`
+  - (Will contain cleaned and filtered datasets, to be uploaded later as supplementary material.)
+- `models/`
+  - Trained models will be stored here.
+- `figures/`
+  - Plots and figures generated during analysis.
+- `requirements.txt`
+  - Python packages needed to run the notebook.
+
+---
+
+## ⚙️ Installation
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/JAK2-QSAR-ML.git
+cd JAK2-QSAR-ML
+pip install -r requirements.txt
